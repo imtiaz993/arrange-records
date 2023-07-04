@@ -5,7 +5,11 @@ const Appbar = () => {
     <div className="bg-[#181818] pl-7 pr-5 py-3 flex items-center justify-between shadow-[0px 4px 4px 0px rgba(0, 0, 0, 0.25)]">
       <div className="flex items-center">
         <div className="">
-          <img className="w-[183px] cursor-pointer" src="/images/logo.png" alt="" />
+          <img
+            className="w-[183px] cursor-pointer"
+            src="/images/logo.png"
+            alt=""
+          />
         </div>
         <div className="flex items-center ml-10">
           <p className="text-[#F79E1C] text-xs bg-[#272727] rounded-md py-2.5 px-4 mr-1 cursor-pointer">
