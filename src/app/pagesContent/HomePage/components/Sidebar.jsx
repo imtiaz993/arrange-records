@@ -44,7 +44,7 @@ const Sidebar = () => {
             </div>
           </div>
           <p className="text-white text-sm text-center">
-            It is not that I'm so smart. But I stay with the questions much
+            It is not that I&apos;m so smart. But I stay with the questions much
             longer.
           </p>
           <div className="flex justify-center my-2">
