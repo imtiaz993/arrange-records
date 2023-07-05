@@ -2,8 +2,8 @@ import React from "react";
 
 const Sidebar = () => {
   return (
-    <div className="bg-[#181818] w-1/4 max-w-xs flex flex-col justify-between min-h-screen">
-      <div>
+    <div className="bg-[#181818] w-1/4 max-w-xs">
+      <div className="mb-48">
         <div className="flex items-center px-4 py-4 ml-5 rounded-md cursor-pointer mt-8">
           <img src="/icons/advance-math.svg" alt="" />
           <p className="ml-2.5 text-[#7E7E7E] text-base">Advanced Maths</p>

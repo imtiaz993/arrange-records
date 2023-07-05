@@ -7,7 +7,7 @@ import PreviousTest from "./components/PreviousTest";
 
 const HomePage = () => {
   return (
-    <div>
+    <div className="bg-[#272727]">
       <Appbar />
       <div className="flex">
         <Sidebar />

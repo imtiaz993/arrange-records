@@ -12,7 +12,7 @@ const PreviousTest = () => {
           <img width="14px" src="/icons/sort.svg" alt="" />
         </div>
       </div>
-      <div className="max-h-[500px] overflow-y-auto pr-2 mt-3">
+      <div className="max-h-[553px] overflow-y-auto pr-2 mt-3">
         <div className="flex justify-between items-center rounded-md bg-[#181818] radial-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
           <img width="56px" src="/images/test-image.png" alt="" />
           <p className=" mx-2 w-[calc(100%-80px)] text-sm">
