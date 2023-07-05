@@ -29,20 +29,25 @@ const Appbar = () => {
       <div className="flex items-center">
         <div className="min-w-[250px] flex items-center rounded-md border border-[#272727]">
           <input
-            className="w-full bg-transparent text-[#7E7E7E] text-xs border-none outline-none"
+            className="w-full bg-transparent text-[#7E7E7E] text-xs outline-none"
             placeholder="Search"
             type="text"
           />
           <img className="cursor-pointer" src="/icons/search.svg" alt="" />
         </div>
-        <div className="min-w-[146px] flex items-center bg-[#272727] rounded-md px-2.5 py-2 ml-8 mr-4 cursor-pointer">
+        <div className="min-w-[146px] flex items-center bg-[#272727] rounded-md px-3 py-2 ml-8 mr-4 cursor-pointer">
           <div className="flex  items-center">
             <img width="25px" src="/icons/wallet.svg" alt="" />
             <p className="text-white text-sx font-medium ml-3">$245,13</p>
           </div>
-          <img src="" alt="" />
+          <img
+            className="ml-auto rotate-90"
+            src="/icons/right-chevron.svg"
+            width="10px"
+            alt=""
+          />
         </div>
-        <div className="min-w-[134px] bg-[#272727] flex justify-center rounded-md px-2.5 py-2 cursor-pointer">
+        <div className="min-w-[134px] bg-[#272727] flex justify-center rounded-md px-3 py-[10px] cursor-pointer">
           <p className="text-[#F79E1C] text-sm">Explore</p>
         </div>
       </div>

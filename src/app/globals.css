@@ -22,3 +22,19 @@ li {
 ::after {
   border-width: 0;
 }
+
+::-webkit-scrollbar-thumb {
+  background-color: #F79E1C;
+  border-radius: 16px;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #303030;
+}
+.radial-gradient:hover {
+  background: radial-gradient(#3C2C16, #181818);
+  background-size: 120% 500%
+}

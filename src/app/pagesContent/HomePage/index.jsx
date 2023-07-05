@@ -3,6 +3,7 @@ import Appbar from "./components/Appbar";
 import Sidebar from "./components/Sidebar";
 import Content from "./components/Content";
 import BreadCrumbs from "./components/BreadCrumbs";
+import PreviousTest from "./components/PreviousTest";
 
 const HomePage = () => {
   return (
@@ -12,7 +13,10 @@ const HomePage = () => {
         <Sidebar />
         <div className="w-full">
           <BreadCrumbs />
-          <Content />
+          <div className="flex justify-between">
+            <Content />
+            <PreviousTest />
+          </div>
         </div>
       </div>
     </div>

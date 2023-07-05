@@ -2,17 +2,17 @@ import React from "react";
 
 const Sidebar = () => {
   return (
-    <div className="bg-[#181818] w-1/5 flex flex-col justify-between min-h-screen">
+    <div className="bg-[#181818] w-1/4 max-w-xs flex flex-col justify-between min-h-screen">
       <div>
-        <div className="flex items-center px-4 py-5 ml-5 rounded-md cursor-pointer mt-14">
+        <div className="flex items-center px-4 py-4 ml-5 rounded-md cursor-pointer mt-8">
           <img src="/icons/advance-math.svg" alt="" />
           <p className="ml-2.5 text-[#7E7E7E] text-base">Advanced Maths</p>
         </div>
-        <div className="flex items-center px-4 py-5 ml-5 rounded-md cursor-pointer bg-[#F79E1B]">
+        <div className="flex items-center px-4 py-4 ml-5 rounded-md cursor-pointer bg-[#F79E1B]">
           <img src="/icons/math-methods.svg" alt="" />
           <p className="ml-2.5 text-black text-base">Mathematical Methods</p>
         </div>
-        <div className="flex items-center px-4 py-5 ml-5 rounded-md cursor-pointer">
+        <div className="flex items-center px-4 py-4 ml-5 rounded-md cursor-pointer">
           <img src="/icons/english.svg" alt="" />
           <p className="ml-2.5 text-[#7E7E7E] text-base">English</p>
         </div>
