@@ -1,6 +1,6 @@
 import React from "react";
 
-const PreviousTest = () => {
+const PreviousTest = ({ imagesHeight }) => {
   return (
     <div className="test-section min-w-[320px] max-w-xs bg-[#272727] p-7 pl-0">
       <div className="flex items-center">
@@ -12,7 +12,10 @@ const PreviousTest = () => {
           <img width="14px" src="/icons/sort.svg" alt="" />
         </div>
       </div>
-      <div className="max-h-[553px] overflow-y-auto pr-2 mt-3">
+      <div
+        style={{ maxHeight: imagesHeight?imagesHeight + 105 + "px":"85vh" }}
+        className={`overflow-y-auto pr-2 mt-3`}
+      >
         <div className="flex justify-between items-center rounded-md bg-[#181818] test-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
           <img width="56px" src="/images/test-image.png" alt="" />
           <p className=" mx-2 w-[calc(100%-80px)] text-sm">

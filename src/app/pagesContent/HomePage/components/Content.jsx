@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 
-const Content = () => {
+const Content = ({ divRef }) => {
   const [examPlannerButton, setExamPlannerButtons] = useState(false);
 
   return (
@@ -60,7 +60,7 @@ const Content = () => {
           </button>
         </div>
       </div>
-      <div className="mt-5">
+      <div className="mt-5" ref={divRef}>
         <div>
           <div className="grid grid-cols-3 gap-4 mb-1 mr-2">
             <div className="relative cursor-pointer">

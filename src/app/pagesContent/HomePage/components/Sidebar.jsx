@@ -4,7 +4,7 @@ import React, { useState } from "react";
 const Sidebar = () => {
   const [activeTab, setActiveTab] = useState("Mathematical Methods");
   return (
-    <div className="bg-[#181818] w-1/4 max-w-xs">
+    <div className="bg-[#181818] w-1/4 max-w-xs min-h-screen">
       <div className="mb-48">
         <div
           className={`flex items-center px-4 py-4 ml-5 rounded-md cursor-pointer mt-8 ${
