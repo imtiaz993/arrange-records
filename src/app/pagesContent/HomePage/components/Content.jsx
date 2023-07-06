@@ -10,7 +10,7 @@ const Content = () => {
         style={{ background: 'url("/images/stats-background.png")' }}
         className="rounded-lg py-4 px-6 flex justify-between"
       >
-        <div className="w-1/2 pr-8">
+        <div className="w-[55%] pr-8">
           <div>
             <div className="flex justify-between items-end">
               <p className="text-base text-white mb-2">
@@ -20,7 +20,7 @@ const Content = () => {
             </div>
             <div className="bg-[#2B2B2B] w-full rounded-full h-2">
               <div
-                className={`bg-[#F79E1B] rounded-full h-2`}
+                className={`progress-bar-gradient rounded-full h-2`}
                 style={{ width: 22 + "%" }}
               ></div>
             </div>
@@ -32,25 +32,31 @@ const Content = () => {
             </div>
             <div className="bg-[#2B2B2B] w-full rounded-full h-2">
               <div
-                className={`bg-[#F79E1B] rounded-full h-2`}
+                className={`progress-bar-gradient rounded-full h-2`}
                 style={{ width: 13 + "%" }}
               ></div>
             </div>
           </div>
         </div>
-        <div className="w-2/5">
+        <div className="w-[35%]">
           <ul className="p-0">
             <li className="flex justify-between mb-1">
-              <span className="text-sm text-[#7E7E7E]">Past paperd solved</span>
+              <span className="flex items-center text-sm text-[#7E7E7E]">
+                <span className="w-1 h-1 inline-block rounded-full bg-[#F79E1C] mr-2"></span>
+                Past paperd solved
+              </span>
               <span className="text-right text-sm text-[#F79E1C]">9/10</span>
             </li>
             <li className="flex justify-between">
-              <span className="text-sm text-[#7E7E7E]">Mock test completed</span>
+              <span className="flex items-center text-sm text-[#7E7E7E]">
+                <span className="w-1 h-1 inline-block rounded-full bg-[#F79E1C] mr-2"></span>
+                Mock test completed
+              </span>
               <span className="text-right text-sm text-[#F79E1C]">10/10</span>
             </li>
           </ul>
           <button className="mt-5 w-full rounded-md bg-[#303030] text-xs text-[#F79E1C] py-2.5 cursor-pointer">
-          More Stats
+            More Stats
           </button>
         </div>
       </div>

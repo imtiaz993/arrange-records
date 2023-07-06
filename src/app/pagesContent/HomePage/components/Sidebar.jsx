@@ -1,20 +1,66 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 
 const Sidebar = () => {
+  const [activeTab, setActiveTab] = useState("Mathematical Methods");
   return (
     <div className="bg-[#181818] w-1/4 max-w-xs">
       <div className="mb-48">
-        <div className="flex items-center px-4 py-4 ml-5 rounded-md cursor-pointer mt-8">
-          <img src="/icons/advance-math.svg" alt="" />
-          <p className="ml-2.5 text-[#7E7E7E] text-base">Advanced Maths</p>
+        <div
+          className={`flex items-center px-4 py-4 ml-5 rounded-md cursor-pointer mt-8 ${
+            activeTab === "Advanced Maths" ? "active-tab-gradient" : "text-[#7E7E7E]"
+          }`}
+          onClick={() => {
+            setActiveTab("Advanced Maths");
+          }}
+        >
+          <img
+            src={
+              activeTab === "Advanced Maths"
+                ? "/icons/active-advance-math.svg"
+                : "/icons/advance-math.svg"
+            }
+            alt=""
+          />
+          <p className="ml-2.5 text-base">Advanced Maths</p>
         </div>
-        <div className="flex items-center px-4 py-4 ml-5 rounded-md cursor-pointer bg-[#F79E1B]">
-          <img src="/icons/math-methods.svg" alt="" />
-          <p className="ml-2.5 text-black text-base">Mathematical Methods</p>
+        <div
+          className={`flex items-center px-4 py-4 ml-5 rounded-md cursor-pointer ${
+            activeTab === "Mathematical Methods"
+              ? "active-tab-gradient"
+              : "text-[#7E7E7E]"
+          }`}
+          onClick={() => {
+            setActiveTab("Mathematical Methods");
+          }}
+        >
+          <img
+            src={
+              activeTab === "Mathematical Methods"
+                ? "/icons/active-math-methods.svg"
+                : "/icons/math-methods.svg"
+            }
+            alt=""
+          />
+          <p className="ml-2.5 text-base">Mathematical Methods</p>
         </div>
-        <div className="flex items-center px-4 py-4 ml-5 rounded-md cursor-pointer">
-          <img src="/icons/english.svg" alt="" />
-          <p className="ml-2.5 text-[#7E7E7E] text-base">English</p>
+        <div
+          className={`flex items-center px-4 py-4 ml-5 rounded-md cursor-pointer ${
+            activeTab === "English" ? "active-tab-gradient" : "text-[#7E7E7E]"
+          }`}
+          onClick={() => {
+            setActiveTab("English");
+          }}
+        >
+          <img
+            src={
+              activeTab === "English"
+                ? "/icons/active-english.svg"
+                : "/icons/english.svg"
+            }
+            alt=""
+          />
+          <p className="ml-2.5 text-base">English</p>
         </div>
       </div>
       <div>

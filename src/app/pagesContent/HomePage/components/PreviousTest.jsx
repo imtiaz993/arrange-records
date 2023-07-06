@@ -2,7 +2,7 @@ import React from "react";
 
 const PreviousTest = () => {
   return (
-    <div className="test-section w-1/3 max-w-xs bg-[#272727] p-7 pl-0">
+    <div className="test-section min-w-[320px] max-w-xs bg-[#272727] p-7 pl-0">
       <div className="flex items-center">
         <div className="bg-[#1E1E1E] rounded-full w-8 h-8 flex justify-center items-center">
           <img width="16px" src="/icons/previous-test.svg" alt="" />
@@ -13,203 +13,203 @@ const PreviousTest = () => {
         </div>
       </div>
       <div className="max-h-[553px] overflow-y-auto pr-2 mt-3">
-        <div className="flex justify-between items-center rounded-md bg-[#181818] radial-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
+        <div className="flex justify-between items-center rounded-md bg-[#181818] test-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
           <img width="56px" src="/images/test-image.png" alt="" />
           <p className=" mx-2 w-[calc(100%-80px)] text-sm">
             Lorem ipsum dolor sit amet consectetur.
           </p>
           <img width="24px" src="/icons/dots-horizontal.svg" alt="" />
         </div>
-        <div className="flex justify-between items-center rounded-md bg-[#181818] radial-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
+        <div className="flex justify-between items-center rounded-md bg-[#181818] test-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
           <img width="56px" src="/images/test-image.png" alt="" />
           <p className=" mx-2 w-[calc(100%-80px)] text-sm">
             Lorem ipsum dolor sit amet consectetur.
           </p>
           <img width="24px" src="/icons/dots-horizontal.svg" alt="" />
         </div>
-        <div className="flex justify-between items-center rounded-md bg-[#181818] radial-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
+        <div className="flex justify-between items-center rounded-md bg-[#181818] test-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
           <img width="56px" src="/images/test-image.png" alt="" />
           <p className=" mx-2 w-[calc(100%-80px)] text-sm">
             Lorem ipsum dolor sit amet consectetur.
           </p>
           <img width="24px" src="/icons/dots-horizontal.svg" alt="" />
         </div>
-        <div className="flex justify-between items-center rounded-md bg-[#181818] radial-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
+        <div className="flex justify-between items-center rounded-md bg-[#181818] test-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
           <img width="56px" src="/images/test-image.png" alt="" />
           <p className=" mx-2 w-[calc(100%-80px)] text-sm">
             Lorem ipsum dolor sit amet consectetur.
           </p>
           <img width="24px" src="/icons/dots-horizontal.svg" alt="" />
         </div>
-        <div className="flex justify-between items-center rounded-md bg-[#181818] radial-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
+        <div className="flex justify-between items-center rounded-md bg-[#181818] test-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
           <img width="56px" src="/images/test-image.png" alt="" />
           <p className=" mx-2 w-[calc(100%-80px)] text-sm">
             Lorem ipsum dolor sit amet consectetur.
           </p>
           <img width="24px" src="/icons/dots-horizontal.svg" alt="" />
         </div>
-        <div className="flex justify-between items-center rounded-md bg-[#181818] radial-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
+        <div className="flex justify-between items-center rounded-md bg-[#181818] test-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
           <img width="56px" src="/images/test-image.png" alt="" />
           <p className=" mx-2 w-[calc(100%-80px)] text-sm">
             Lorem ipsum dolor sit amet consectetur.
           </p>
           <img width="24px" src="/icons/dots-horizontal.svg" alt="" />
         </div>
-        <div className="flex justify-between items-center rounded-md bg-[#181818] radial-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
+        <div className="flex justify-between items-center rounded-md bg-[#181818] test-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
           <img width="56px" src="/images/test-image.png" alt="" />
           <p className=" mx-2 w-[calc(100%-80px)] text-sm">
             Lorem ipsum dolor sit amet consectetur.
           </p>
           <img width="24px" src="/icons/dots-horizontal.svg" alt="" />
         </div>
-        <div className="flex justify-between items-center rounded-md bg-[#181818] radial-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
+        <div className="flex justify-between items-center rounded-md bg-[#181818] test-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
           <img width="56px" src="/images/test-image.png" alt="" />
           <p className=" mx-2 w-[calc(100%-80px)] text-sm">
             Lorem ipsum dolor sit amet consectetur.
           </p>
           <img width="24px" src="/icons/dots-horizontal.svg" alt="" />
         </div>
-        <div className="flex justify-between items-center rounded-md bg-[#181818] radial-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
+        <div className="flex justify-between items-center rounded-md bg-[#181818] test-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
           <img width="56px" src="/images/test-image.png" alt="" />
           <p className=" mx-2 w-[calc(100%-80px)] text-sm">
             Lorem ipsum dolor sit amet consectetur.
           </p>
           <img width="24px" src="/icons/dots-horizontal.svg" alt="" />
         </div>
-        <div className="flex justify-between items-center rounded-md bg-[#181818] radial-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
+        <div className="flex justify-between items-center rounded-md bg-[#181818] test-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
           <img width="56px" src="/images/test-image.png" alt="" />
           <p className=" mx-2 w-[calc(100%-80px)] text-sm">
             Lorem ipsum dolor sit amet consectetur.
           </p>
           <img width="24px" src="/icons/dots-horizontal.svg" alt="" />
         </div>
-        <div className="flex justify-between items-center rounded-md bg-[#181818] radial-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
+        <div className="flex justify-between items-center rounded-md bg-[#181818] test-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
           <img width="56px" src="/images/test-image.png" alt="" />
           <p className=" mx-2 w-[calc(100%-80px)] text-sm">
             Lorem ipsum dolor sit amet consectetur.
           </p>
           <img width="24px" src="/icons/dots-horizontal.svg" alt="" />
         </div>
-        <div className="flex justify-between items-center rounded-md bg-[#181818] radial-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
+        <div className="flex justify-between items-center rounded-md bg-[#181818] test-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
           <img width="56px" src="/images/test-image.png" alt="" />
           <p className=" mx-2 w-[calc(100%-80px)] text-sm">
             Lorem ipsum dolor sit amet consectetur.
           </p>
           <img width="24px" src="/icons/dots-horizontal.svg" alt="" />
         </div>
-        <div className="flex justify-between items-center rounded-md bg-[#181818] radial-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
+        <div className="flex justify-between items-center rounded-md bg-[#181818] test-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
           <img width="56px" src="/images/test-image.png" alt="" />
           <p className=" mx-2 w-[calc(100%-80px)] text-sm">
             Lorem ipsum dolor sit amet consectetur.
           </p>
           <img width="24px" src="/icons/dots-horizontal.svg" alt="" />
         </div>
-        <div className="flex justify-between items-center rounded-md bg-[#181818] radial-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
+        <div className="flex justify-between items-center rounded-md bg-[#181818] test-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
           <img width="56px" src="/images/test-image.png" alt="" />
           <p className=" mx-2 w-[calc(100%-80px)] text-sm">
             Lorem ipsum dolor sit amet consectetur.
           </p>
           <img width="24px" src="/icons/dots-horizontal.svg" alt="" />
         </div>
-        <div className="flex justify-between items-center rounded-md bg-[#181818] radial-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
+        <div className="flex justify-between items-center rounded-md bg-[#181818] test-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
           <img width="56px" src="/images/test-image.png" alt="" />
           <p className=" mx-2 w-[calc(100%-80px)] text-sm">
             Lorem ipsum dolor sit amet consectetur.
           </p>
           <img width="24px" src="/icons/dots-horizontal.svg" alt="" />
         </div>
-        <div className="flex justify-between items-center rounded-md bg-[#181818] radial-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
+        <div className="flex justify-between items-center rounded-md bg-[#181818] test-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
           <img width="56px" src="/images/test-image.png" alt="" />
           <p className=" mx-2 w-[calc(100%-80px)] text-sm">
             Lorem ipsum dolor sit amet consectetur.
           </p>
           <img width="24px" src="/icons/dots-horizontal.svg" alt="" />
         </div>
-        <div className="flex justify-between items-center rounded-md bg-[#181818] radial-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
+        <div className="flex justify-between items-center rounded-md bg-[#181818] test-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
           <img width="56px" src="/images/test-image.png" alt="" />
           <p className=" mx-2 w-[calc(100%-80px)] text-sm">
             Lorem ipsum dolor sit amet consectetur.
           </p>
           <img width="24px" src="/icons/dots-horizontal.svg" alt="" />
         </div>
-        <div className="flex justify-between items-center rounded-md bg-[#181818] radial-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
+        <div className="flex justify-between items-center rounded-md bg-[#181818] test-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
           <img width="56px" src="/images/test-image.png" alt="" />
           <p className=" mx-2 w-[calc(100%-80px)] text-sm">
             Lorem ipsum dolor sit amet consectetur.
           </p>
           <img width="24px" src="/icons/dots-horizontal.svg" alt="" />
         </div>
-        <div className="flex justify-between items-center rounded-md bg-[#181818] radial-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
+        <div className="flex justify-between items-center rounded-md bg-[#181818] test-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
           <img width="56px" src="/images/test-image.png" alt="" />
           <p className=" mx-2 w-[calc(100%-80px)] text-sm">
             Lorem ipsum dolor sit amet consectetur.
           </p>
           <img width="24px" src="/icons/dots-horizontal.svg" alt="" />
         </div>
-        <div className="flex justify-between items-center rounded-md bg-[#181818] radial-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
+        <div className="flex justify-between items-center rounded-md bg-[#181818] test-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
           <img width="56px" src="/images/test-image.png" alt="" />
           <p className=" mx-2 w-[calc(100%-80px)] text-sm">
             Lorem ipsum dolor sit amet consectetur.
           </p>
           <img width="24px" src="/icons/dots-horizontal.svg" alt="" />
         </div>
-        <div className="flex justify-between items-center rounded-md bg-[#181818] radial-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
+        <div className="flex justify-between items-center rounded-md bg-[#181818] test-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
           <img width="56px" src="/images/test-image.png" alt="" />
           <p className=" mx-2 w-[calc(100%-80px)] text-sm">
             Lorem ipsum dolor sit amet consectetur.
           </p>
           <img width="24px" src="/icons/dots-horizontal.svg" alt="" />
         </div>
-        <div className="flex justify-between items-center rounded-md bg-[#181818] radial-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
+        <div className="flex justify-between items-center rounded-md bg-[#181818] test-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
           <img width="56px" src="/images/test-image.png" alt="" />
           <p className=" mx-2 w-[calc(100%-80px)] text-sm">
             Lorem ipsum dolor sit amet consectetur.
           </p>
           <img width="24px" src="/icons/dots-horizontal.svg" alt="" />
         </div>
-        <div className="flex justify-between items-center rounded-md bg-[#181818] radial-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
+        <div className="flex justify-between items-center rounded-md bg-[#181818] test-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
           <img width="56px" src="/images/test-image.png" alt="" />
           <p className=" mx-2 w-[calc(100%-80px)] text-sm">
             Lorem ipsum dolor sit amet consectetur.
           </p>
           <img width="24px" src="/icons/dots-horizontal.svg" alt="" />
         </div>
-        <div className="flex justify-between items-center rounded-md bg-[#181818] radial-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
+        <div className="flex justify-between items-center rounded-md bg-[#181818] test-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
           <img width="56px" src="/images/test-image.png" alt="" />
           <p className=" mx-2 w-[calc(100%-80px)] text-sm">
             Lorem ipsum dolor sit amet consectetur.
           </p>
           <img width="24px" src="/icons/dots-horizontal.svg" alt="" />
         </div>
-        <div className="flex justify-between items-center rounded-md bg-[#181818] radial-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
+        <div className="flex justify-between items-center rounded-md bg-[#181818] test-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
           <img width="56px" src="/images/test-image.png" alt="" />
           <p className=" mx-2 w-[calc(100%-80px)] text-sm">
             Lorem ipsum dolor sit amet consectetur.
           </p>
           <img width="24px" src="/icons/dots-horizontal.svg" alt="" />
         </div>
-        <div className="flex justify-between items-center rounded-md bg-[#181818] radial-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
+        <div className="flex justify-between items-center rounded-md bg-[#181818] test-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
           <img width="56px" src="/images/test-image.png" alt="" />
           <p className=" mx-2 w-[calc(100%-80px)] text-sm">
             Lorem ipsum dolor sit amet consectetur.
           </p>
           <img width="24px" src="/icons/dots-horizontal.svg" alt="" />
         </div>
-        <div className="flex justify-between items-center rounded-md bg-[#181818] radial-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
+        <div className="flex justify-between items-center rounded-md bg-[#181818] test-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
           <img width="56px" src="/images/test-image.png" alt="" />
           <p className=" mx-2 w-[calc(100%-80px)] text-sm">
             Lorem ipsum dolor sit amet consectetur.
           </p>
           <img width="24px" src="/icons/dots-horizontal.svg" alt="" />
         </div>
-        <div className="flex justify-between items-center rounded-md bg-[#181818] radial-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
+        <div className="flex justify-between items-center rounded-md bg-[#181818] test-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
           <img width="56px" src="/images/test-image.png" alt="" />
           <p className=" mx-2 w-[calc(100%-80px)] text-sm">
             Lorem ipsum dolor sit amet consectetur.
           </p>
           <img width="24px" src="/icons/dots-horizontal.svg" alt="" />
         </div>
-        <div className="flex justify-between items-center rounded-md bg-[#181818] radial-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
+        <div className="flex justify-between items-center rounded-md bg-[#181818] test-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
           <img width="56px" src="/images/test-image.png" alt="" />
           <p className=" mx-2 w-[calc(100%-80px)] text-sm">
             Lorem ipsum dolor sit amet consectetur.

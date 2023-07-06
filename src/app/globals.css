@@ -34,7 +34,16 @@ li {
 ::-webkit-scrollbar-track {
   background: #303030;
 }
-.radial-gradient:hover {
+
+.test-gradient:hover {
   background: radial-gradient(#3C2C16, #181818);
   background-size: 120% 500%
+}
+
+.progress-bar-gradient{
+  background: radial-gradient(105.78% 237.28% at 0% 254.53%, #EB0E00 40%, rgba(255, 95, 0, 0.00) 100%), #F79E1B;
+}
+
+.active-tab-gradient{
+  background: radial-gradient(80.78% 237.28% at 0% 244.53%, #EB0E00 20%, rgba(255, 95, 0, 0.00) 100%), #F79E1B;
 }
