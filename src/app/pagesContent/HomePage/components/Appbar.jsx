@@ -26,7 +26,7 @@ const Appbar = () => {
               Сontact
             </p>
           </div>
-          <div className="mr-8 min-w-[250px] flex items-center rounded-md border border-[#272727]">
+          <div className="mr-8 px-2 min-w-[250px] flex items-center rounded-md border border-solid border-[#272727]">
             <input
               className="w-full bg-transparent text-[#7E7E7E] text-xs outline-none"
               placeholder="Search"
