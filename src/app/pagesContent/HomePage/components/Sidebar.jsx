@@ -5,10 +5,12 @@ const Sidebar = () => {
   const [activeTab, setActiveTab] = useState("Mathematical Methods");
   return (
     <div className="bg-[#181818] w-1/4 max-w-xs min-h-screen">
-      <div className="mb-48">
+      <div className="pb-48 border-r border-solid border-gradient">
         <div
-          className={`flex items-center px-4 py-4 ml-5 rounded-md cursor-pointer mt-8 ${
-            activeTab === "Advanced Maths" ? "active-tab-gradient" : "text-[#7E7E7E]"
+          className={`relative flex items-center px-4 py-4 ml-5 rounded-l-md cursor-pointer mt-8 ${
+            activeTab === "Advanced Maths"
+              ? "active-tab-gradient"
+              : "text-[#7E7E7E]"
           }`}
           onClick={() => {
             setActiveTab("Advanced Maths");
@@ -23,9 +25,16 @@ const Sidebar = () => {
             alt=""
           />
           <p className="ml-2.5 text-base">Advanced Maths</p>
+          {activeTab === "Advanced Maths" && (
+            <img
+              className="absolute -right-1"
+              src="/images/active.png"
+              alt=""
+            />
+          )}
         </div>
         <div
-          className={`flex items-center px-4 py-4 ml-5 rounded-md cursor-pointer ${
+          className={`relative flex items-center px-4 py-4 ml-5 rounded-l-md cursor-pointer ${
             activeTab === "Mathematical Methods"
               ? "active-tab-gradient"
               : "text-[#7E7E7E]"
@@ -43,9 +52,16 @@ const Sidebar = () => {
             alt=""
           />
           <p className="ml-2.5 text-base">Mathematical Methods</p>
+          {activeTab === "Mathematical Methods" && (
+            <img
+              className="absolute -right-1"
+              src="/images/active.png"
+              alt=""
+            />
+          )}
         </div>
         <div
-          className={`flex items-center px-4 py-4 ml-5 rounded-md cursor-pointer ${
+          className={`relative flex items-center px-4 py-4 ml-5 rounded-l-md cursor-pointer ${
             activeTab === "English" ? "active-tab-gradient" : "text-[#7E7E7E]"
           }`}
           onClick={() => {
@@ -61,6 +77,13 @@ const Sidebar = () => {
             alt=""
           />
           <p className="ml-2.5 text-base">English</p>
+          {activeTab === "English" && (
+            <img
+              className="absolute -right-1"
+              src="/images/active.png"
+              alt=""
+            />
+          )}
         </div>
       </div>
       <div>

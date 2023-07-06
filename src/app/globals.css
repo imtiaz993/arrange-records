@@ -57,3 +57,9 @@ li {
     ),
     #f79e1b;
 }
+
+.border-gradient {
+  border-image: linear-gradient(360deg, rgba(247, 158, 28, 0.00) 0%, #F79E1C 63.02%, #F79E1C 27.08%, rgba(247, 158, 28, 0.00) 100%);
+  border-image-slice: 1;
+  background-clip: padding-box;
+}
