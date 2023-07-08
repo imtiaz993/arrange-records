@@ -36,7 +36,7 @@ const Appbar = () => {
           </div>
         </div>
         <div className="min-w-[320px] max-w-xs flex items-center">
-          <div className="w-1/2 flex items-center bg-[#272727] rounded-md px-3 py-2 mr-4 cursor-pointer">
+          <div className="relative w-1/2 flex items-center bg-[#272727] rounded-md px-3 py-2 mr-4 cursor-pointer">
             <div className="flex  items-center">
               <img width="25px" src="/icons/wallet.svg" alt="" />
               <p className="text-white text-sx font-medium ml-3">$245,13</p>
@@ -47,6 +47,10 @@ const Appbar = () => {
               width="10px"
               alt=""
             />
+            {/* <div className="w-full absolute left-0 top-9 py-1 bg-[#272727] shadow-lg text-white">
+              <p className="px-4 py-2 hover:bg-[#F79E1C]">Option 1</p>
+              <p className="px-4 py-2 hover:bg-[#F79E1C]">Option 1</p>
+            </div> */}
           </div>
           <div className="w-1/2  bg-[#272727] flex justify-center rounded-md px-3 py-[10px] cursor-pointer">
             <p className="text-[#F79E1C] text-sm">Explore</p>

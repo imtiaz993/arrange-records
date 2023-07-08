@@ -3,9 +3,12 @@ import React, { useState } from "react";
 
 const Sidebar = () => {
   const [activeTab, setActiveTab] = useState("Mathematical Methods");
+  const [showQuote, setShowQuote] = useState(
+    !localStorage.getItem("hideQuote")
+  );
   return (
-    <div className="bg-[#181818] w-1/4 max-w-xs min-h-screen">
-      <div className="pb-48 border-r border-solid border-gradient">
+    <div className="bg-[#181818] w-1/4 max-w-xs min-h-screen flex flex-col">
+      <div className="border-r border-solid border-gradient">
         <div
           className={`relative flex items-center px-4 py-4 ml-5 rounded-l-md cursor-pointer mt-8 ${
             activeTab === "Advanced Maths"
@@ -86,7 +89,7 @@ const Sidebar = () => {
           )}
         </div>
       </div>
-      <div>
+      <div className="mt-[20%]">
         <div className="rounded-md bg-[#303030] mx-3 p-2 flex justify-between">
           <input
             type="text"
@@ -97,36 +100,46 @@ const Sidebar = () => {
             <img src="/icons/plus.svg" alt="" />
           </div>
         </div>
-        <div className="mx-3 p-1 mt-4 mb-8">
-          <div className="bg-[#393838] opacity-40 rounded-xl w-full h-[1px]"></div>
-        </div>
-        <div className="mx-5 my-8">
-          <div className="relative flex justify-center">
-            <img src="/icons/quote.svg" alt="" />
-            <div className="absolute right-0">
-              <img
-                className="cursor-pointer"
-                width="25px"
-                src="/icons/close.svg"
-                alt=""
-              />
+        {showQuote && (
+          <div>
+            <div className="mx-3 p-1 mt-4 mb-4">
+              <div className="bg-[#393838] opacity-40 rounded-xl w-full h-[1px]"></div>
+            </div>
+            <div className="mx-5 my-8 mt-4">
+              <div className="relative flex justify-center">
+                <img src="/icons/quote.svg" alt="" />
+                <div
+                  className="absolute right-0"
+                  onClick={() => {
+                    setShowQuote(false);
+                    localStorage.setItem("hideQuote", true);
+                  }}
+                >
+                  <img
+                    className="cursor-pointer"
+                    width="25px"
+                    src="/icons/close.svg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <p className="text-white text-sm text-center">
+                It is not that I&apos;m so smart. But I stay with the questions
+                much longer.
+              </p>
+              <div className="flex justify-center my-2">
+                <img src="/images/user.png" alt="" />
+              </div>
+              <p className="text-white text-sm font-light text-center">
+                Albert Einstein
+              </p>
+              <p className="text-[#7B7C80] text-xs text-center">
+                Theoretical physicist
+              </p>
+              <div className="w-20 rounded-[1px] bg-[#F79E1B] h-[1px] mx-auto mt-5"></div>
             </div>
           </div>
-          <p className="text-white text-sm text-center">
-            It is not that I&apos;m so smart. But I stay with the questions much
-            longer.
-          </p>
-          <div className="flex justify-center my-2">
-            <img src="/images/user.png" alt="" />
-          </div>
-          <p className="text-white text-sm font-light text-center">
-            Albert Einstein
-          </p>
-          <p className="text-[#7B7C80] text-xs text-center">
-            Theoretical physicist
-          </p>
-          <div className="w-20 rounded-[1px] bg-[#F79E1B] h-[1px] mx-auto mt-5"></div>
-        </div>
+        )}
       </div>
     </div>
   );
