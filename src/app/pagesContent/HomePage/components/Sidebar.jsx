@@ -92,7 +92,7 @@ const Sidebar = () => {
           )}
         </div>
       </div>
-      <div className="mt-[20%]">
+      <div className={`${showQuote ? "mt-[20%]" : "mt-[50%]"}`}>
         <div className="rounded-md bg-[#303030] mx-3 p-2 flex justify-between">
           <input
             type="text"
