@@ -1,11 +1,14 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 const Sidebar = () => {
   const [activeTab, setActiveTab] = useState("Mathematical Methods");
-  const [showQuote, setShowQuote] = useState(
-    !localStorage.getItem("hideQuote")
-  );
+  const [showQuote, setShowQuote] = useState(false);
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      setShowQuote(!localStorage.getItem("hideQuote"));
+    }
+  }, []);
   return (
     <div className="bg-[#181818] w-1/4 max-w-xs min-h-screen flex flex-col">
       <div className="border-r border-solid border-gradient">
