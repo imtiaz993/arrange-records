@@ -63,3 +63,7 @@ li {
   border-image-slice: 1;
   background-clip: padding-box;
 }
+
+.button-shadow:hover {
+  box-shadow: 1px 8px 29px 0px rgba(255, 129, 74, 0.85);
+}

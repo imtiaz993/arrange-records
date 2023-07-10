@@ -17,13 +17,13 @@ const HomePage = () => {
     setImagesHeight(divHeight);
   }, []);
   return (
-    <div className="bg-[#272727] min-h-screen">
+    <div className="bg-[#181818] min-h-screen">
       <Appbar />
       <div className="flex">
         <Sidebar />
         <div className="w-full">
           <BreadCrumbs />
-          <div className="flex justify-between">
+          <div className="rounded-ss-xl bg-[#272727] overflow-hidden flex justify-between">
             <Content divRef={divRef} />
             <PreviousTest imagesHeight={imagesHeight} />
           </div>

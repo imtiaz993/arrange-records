@@ -92,10 +92,10 @@ const Content = ({ divRef }) => {
                     : "opacity-0 transition-all duration-500"
                 }`}
               >
-                <button className="bg-[#1A1818] rounded-md w-2/5  h-10 text-white hover:text-[#F79E1C] text-xs cursor-pointer">
+                <button className="bg-[#1A1818] rounded-md w-2/5  h-8 text-white hover:text-[#F79E1C] text-xs cursor-pointer button-shadow">
                   Final Exam
                 </button>
-                <button className="bg-[#1A1818] rounded-md w-2/5 h-10 text-white hover:text-[#F79E1C] text-xs ml-3 cursor-pointer">
+                <button className="bg-[#1A1818] rounded-md w-2/5 h-8 text-white hover:text-[#F79E1C] text-xs ml-3 cursor-pointer button-shadow">
                   My Plan
                 </button>
               </div>
