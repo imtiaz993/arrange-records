@@ -37,9 +37,9 @@ const Appbar = () => {
         </div>
         <div className="min-w-[310px] max-w-xs flex items-center">
           <div className="relative w-1/2 flex items-center bg-[#272727] rounded-md px-3 py-2 mr-4 cursor-pointer">
-            <div className="flex  items-center">
+            <div className="flex items-center">
               <img width="25px" src="/icons/wallet.svg" alt="" />
-              <p className="text-white text-sx font-medium ml-3">$245,13</p>
+              <p className="text-white text-xs font-medium ml-3 mt-1">$245,13</p>
             </div>
             <img
               className="ml-auto rotate-90"

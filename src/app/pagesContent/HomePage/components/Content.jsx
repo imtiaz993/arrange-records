@@ -62,16 +62,16 @@ const Content = ({ divRef }) => {
       </div>
       <div className="mt-3" ref={divRef}>
         <div>
-          <div className="grid grid-cols-3 gap-2 mr-2 -mb-[3.5%]">
+          <div className="grid grid-cols-3 gap-2 mr-2 -mb-[2.5%]">
             <div className="relative cursor-pointer">
               <img width="100%" height="85%" src="/images/revision.png" alt="" />
-              <p className="text-white text-lg absolute bottom-[20%] left-5">
+              <p className="text-white text-base absolute bottom-[20%] left-5">
                 Revision
               </p>
             </div>
             <div className="relative cursor-pointer">
               <img width="100%" height="85%" src="/images/mentor.png" alt="" />
-              <p className="text-white text-lg absolute bottom-[20%] left-5">
+              <p className="text-white text-base absolute bottom-[20%] left-5">
                 Mentor
               </p>
             </div>
@@ -99,7 +99,7 @@ const Content = ({ divRef }) => {
                   My Plan
                 </button>
               </div>
-              <p className="text-white text-lg absolute bottom-[22%] left-6">
+              <p className="text-white text-base absolute bottom-[22%] left-6">
                 Exam Planner
               </p>
             </div>
@@ -107,13 +107,13 @@ const Content = ({ divRef }) => {
           <div className="grid grid-cols-2 gap-2 -mb-8">
             <div className="relative cursor-pointer">
               <img width="100%" height="85%" src="/images/past-papers.png" alt="" />
-              <p className="text-white text-lg absolute bottom-[20%] left-4">
+              <p className="text-white text-base absolute bottom-[20%] left-4">
                 Past Papers
               </p>
             </div>
             <div className="relative cursor-pointer">
               <img width="100%" height="85%" src="/images/mock-test.png" alt="" />
-              <p className="text-white text-lg absolute bottom-[20%] left-4">
+              <p className="text-white text-base absolute bottom-[20%] left-4">
                 Mock Tests
               </p>
             </div>

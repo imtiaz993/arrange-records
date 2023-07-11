@@ -16,6 +16,7 @@ p,
 ul,
 li {
   @apply leading-[normal] m-0;
+  font-family: 'Nunito Sans';
 }
 *,
 ::before,
