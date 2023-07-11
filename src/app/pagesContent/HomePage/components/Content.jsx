@@ -38,7 +38,7 @@ const Content = ({ divRef }) => {
             </div>
           </div>
         </div>
-        <div className="w-[80%] pl-[5%] border-l border-solid border-[#2B2B2B] border-opacity-60">
+        <div className="w-[40%] pl-[5%] border-l border-solid border-[#2B2B2B] border-opacity-60">
           <ul className="p-0">
             <li className="flex justify-between mb-1">
               <span className="flex items-center text-sm text-[#7E7E7E]">

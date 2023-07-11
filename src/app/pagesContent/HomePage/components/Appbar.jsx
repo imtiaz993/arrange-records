@@ -12,7 +12,7 @@ const Appbar = () => {
       </div>
       <div className="w-full flex justify-between">
         <div className="w-full flex justify-between">
-          <div className="flex items-center">
+          <div className="flex items-center ml-2">
             <p className="text-[#F79E1C] text-xs bg-[#272727] rounded-md py-2.5 px-4 mr-1 cursor-pointer">
               Home
             </p>
