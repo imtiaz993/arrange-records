@@ -9,7 +9,7 @@ const Sidebar = () => {
     <div className="bg-[#181818] w-1/4 max-w-xs h-[calc(100vh-90px)] flex flex-col justify-between pb-4 mt-5">
       <div className="h-[60%] border-r border-solid border-gradient mt-4">
         <div
-          className={`relative flex items-center px-4 mt-2 py-2.5 ml-5 rounded-l-md cursor-pointer ${
+          className={`relative flex items-center px-4 mt-2 py-3 ml-5 rounded-l-md cursor-pointer ${
             activeTab === "Advanced Maths"
               ? "active-tab-gradient"
               : "text-[#7E7E7E]"
@@ -36,7 +36,7 @@ const Sidebar = () => {
           )}
         </div>
         <div
-          className={`relative flex items-center px-2 py-2.5 ml-5 rounded-l-md cursor-pointer ${
+          className={`relative flex items-center px-2 py-3 ml-5 rounded-l-md cursor-pointer ${
             activeTab === "Mathematical Methods"
               ? "active-tab-gradient"
               : "text-[#7E7E7E]"
@@ -63,7 +63,7 @@ const Sidebar = () => {
           )}
         </div>
         <div
-          className={`relative flex items-center px-2 py-2.5 ml-5 rounded-l-md cursor-pointer ${
+          className={`relative flex items-center px-2 py-3 ml-5 rounded-l-md cursor-pointer ${
             activeTab === "English" ? "active-tab-gradient" : "text-[#7E7E7E]"
           }`}
           onClick={() => {
