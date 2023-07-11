@@ -13,7 +13,7 @@ const PreviousTest = ({ imagesHeight }) => {
         </div>
       </div>
       <div
-        style={{ maxHeight: imagesHeight?imagesHeight + 50 + "px":"71vh" }}
+        style={{ maxHeight: imagesHeight?imagesHeight + 45 + "px":"71vh" }}
         className={`overflow-y-auto pr-2 mt-3`}
       >
         <div className="flex justify-between items-center rounded-md bg-[#181818] test-gradient p-2 mb-3 cursor-pointer text-[#7E7E7E] hover:text-white">
