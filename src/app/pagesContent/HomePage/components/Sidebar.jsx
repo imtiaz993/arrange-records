@@ -6,10 +6,10 @@ const Sidebar = () => {
   const [showQuote, setShowQuote] = useState(true);
 
   return (
-    <div className="bg-[#181818] w-1/4 max-w-xs min-h-screen flex flex-col justify-between pb-8 mt-5">
+    <div className="bg-[#181818] w-1/4 max-w-xs h-[calc(100vh-90px)] flex flex-col justify-between pb-4 mt-5">
       <div className="h-[60%] border-r border-solid border-gradient mt-4">
         <div
-          className={`relative flex items-center px-4 mt-4 py-4 ml-5 rounded-l-md cursor-pointer ${
+          className={`relative flex items-center px-4 mt-2 py-2.5 ml-5 rounded-l-md cursor-pointer ${
             activeTab === "Advanced Maths"
               ? "active-tab-gradient"
               : "text-[#7E7E7E]"
@@ -36,7 +36,7 @@ const Sidebar = () => {
           )}
         </div>
         <div
-          className={`relative flex items-center px-4 py-4 ml-5 rounded-l-md cursor-pointer ${
+          className={`relative flex items-center px-2 py-2.5 ml-5 rounded-l-md cursor-pointer ${
             activeTab === "Mathematical Methods"
               ? "active-tab-gradient"
               : "text-[#7E7E7E]"
@@ -63,7 +63,7 @@ const Sidebar = () => {
           )}
         </div>
         <div
-          className={`relative flex items-center px-4 py-4 ml-5 rounded-l-md cursor-pointer ${
+          className={`relative flex items-center px-2 py-2.5 ml-5 rounded-l-md cursor-pointer ${
             activeTab === "English" ? "active-tab-gradient" : "text-[#7E7E7E]"
           }`}
           onClick={() => {
@@ -89,7 +89,7 @@ const Sidebar = () => {
         </div>
       </div>
       <div>
-        <div className="flex items-center rounded-md bg-[#303030] mx-3 p-2 justify-between cursor-pointer">
+        <div className="flex items-center rounded-md bg-[#303030] mx-3 py-1 px-2 justify-between cursor-pointer">
           <p className="text-base text-[#F79E1C] w-full pl-4 pr-1 bg-transparent">
             Add Subject
           </p>
@@ -99,7 +99,7 @@ const Sidebar = () => {
         </div>
         {showQuote && (
           <div>
-            <div className="mx-3 p-1 mt-4 mb-4">
+            <div className="mx-3 p-1 mt-4 mb-2">
               <div className="bg-[#393838] opacity-40 rounded-xl w-full h-[1px]"></div>
             </div>
             <div className="mx-5 mt-4">
@@ -132,7 +132,7 @@ const Sidebar = () => {
               <p className="text-[#7B7C80] text-xs text-center">
                 Theoretical physicist
               </p>
-              <div className="w-20 rounded-[1px] bg-[#F79E1B] h-[1px] mx-auto mt-5"></div>
+              <div className="w-20 rounded-[1px] bg-[#F79E1B] h-[1px] mx-auto mt-3"></div>
             </div>
           </div>
         )}

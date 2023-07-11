@@ -2,7 +2,7 @@ import React from "react";
 
 const BreadCrumbs = () => {
   return (
-    <div className="bg-[#181818] flex items-center py-2">
+    <div className="bg-[#181818] flex items-center pb-1">
       <p className="text-[#484848] text-xs cursor-pointer">Home</p>
       <img className="mx-3" src="/icons/right-chevron.svg" alt="" />
       <p className="text-[#484848] text-xs cursor-pointer">Bread crumbs</p>

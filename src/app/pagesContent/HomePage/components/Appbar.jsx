@@ -2,7 +2,7 @@ import React from "react";
 
 const Appbar = () => {
   return (
-    <div className="bg-[#181818] pr-7 py-3 flex items-center justify-between">
+    <div className="bg-[#181818] pr-7 py-2 flex items-center justify-between">
       <div className="w-1/4 max-w-xs">
         <img
           className="ml-7 w-[183px] cursor-pointer"
@@ -26,7 +26,7 @@ const Appbar = () => {
               Сontact
             </p>
           </div>
-          <div className="mr-8 px-2 min-w-[250px] flex items-center rounded-md border border-solid border-[#272727]">
+          <div className="mr-4 px-2 min-w-[250px] flex items-center rounded-md border border-solid border-[#272727]">
             <input
               className="w-full bg-transparent text-[#7E7E7E] text-xs outline-none"
               placeholder="Search"
@@ -35,7 +35,7 @@ const Appbar = () => {
             <img className="cursor-pointer" src="/icons/search.svg" alt="" />
           </div>
         </div>
-        <div className="min-w-[320px] max-w-xs flex items-center">
+        <div className="min-w-[310px] max-w-xs flex items-center">
           <div className="relative w-1/2 flex items-center bg-[#272727] rounded-md px-3 py-2 mr-4 cursor-pointer">
             <div className="flex  items-center">
               <img width="25px" src="/icons/wallet.svg" alt="" />
